@@ -1,0 +1,102 @@
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        background-color: aliceblue;
+        font-family: 'EB Garamond', serif;
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+    nav{
+        position: sticky;
+        top: 0;
+        left: 0;
+        background-color: black;
+        height: 70px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    .logo{
+        color: white;
+        text-decoration: none;
+        font-size: 35px;
+        padding: 0 10px;
+        background-color: black;
+        font-weight: bold;
+    }
+    nav ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav ul li{
+        list-style: none;
+        padding: 0 15px;
+        background-color: black;
+    }
+    nav ul  li a{
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        background-color: black;
+    }
+    nav a:hover{
+        color: lightblue;
+    }
+    /* For table */
+
+    .booklist{
+        margin: 30px;
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 10px;
+        width: 50vw;
+    }
+    .heading{
+        font-size: 30px;
+    }
+    .booklist,.register,table,th,td,h2,form,label,input{
+        background-color: white;
+    }
+    .maintable,.innertable{
+        width: 95%;
+    }
+    table,th,td{
+        border: 1px solid lightgrey;
+        border-collapse: collapse;
+        padding: 10px;
+        margin:10px;
+    }
+    /* For form */
+    .register{
+        margin: 30px;
+        border: 1px solid white;
+        border-radius: 10px;
+        width:50vw;
+        padding: 10px;
+    }
+    .formdata{
+        font-size: 20px;
+        padding: 10px;
+        margin: 5px;
+    }
+    input{
+        width:100%;
+        height: 30px;
+        font-size: 15px;
+        border: 0.5px solid grey;
+        margin:0 0 10px 0;
+    }
+    button{
+        width:100%;
+        height: 30px;
+        background-color: black;
+        color: white;
+    }
+    .adjust{
+        margin: 40px 40px 20px 400px;
+    }
